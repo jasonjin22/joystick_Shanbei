@@ -288,6 +288,12 @@ int main(void)
         if (map.rt > 20000) {
             simulate_key(fd_kbd, 106);
         }
+        if (map.x) {
+            simulate_key(fd_kbd, KEY_R);
+        }
+        if (map.y) {
+            simulate_key(fd_kbd, KEY_F);
+        }                
     }
  
     xbox_close(xbox_fd);
