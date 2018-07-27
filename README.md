@@ -1,1 +1,7 @@
-# joystick_Shanbei
+# 用xbox360手柄控制键盘
+## A键 
+1
+## B键 
+2
+## RT键
+右箭头
